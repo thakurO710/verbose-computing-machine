@@ -1,0 +1,89 @@
+CSS
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    color: #333;
+}
+header {
+    background-color: #1f4ba5;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+nav {
+    background-color: #15357a;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.skill-list li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #e8eefc;
+    border-left: 5px solid #1f4ba5;
+}
+#my-name {
+    border-bottom: 5px solid gold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #1f4ba5;
+    color: white;
+}
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    max-width: 700px;
+    border: none;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #1f4ba5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #15357a;
+}
+footer {
+    background-color: #1f4ba5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
